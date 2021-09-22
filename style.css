@@ -41,7 +41,7 @@ html {
 }
 .fname {
   font-size: 310%;
-  padding-top: 120px;
+  padding-top: 250px;
   padding-left:20px;
   margin-left: auto;
   margin-right: auto;
@@ -52,7 +52,7 @@ html {
   margin-top: -20px;
   font-size: 140%;
   text-align: left;
-  padding-left:20px;
+  padding-left:22px;
   font-weight:300;
   color:rgb(80, 80, 80);
   letter-spacing: 2px;
@@ -139,18 +139,24 @@ html {
 
   transition:0.2s ease;
 }
-
+.nav-item a{
+  color:rgb(41, 41, 41) !important;
+}
 @media only screen and (max-width: 991px) {
   .bg-color {
     background: rgb(29, 29, 29);
     color: rgb(255, 255, 255);
   }
+  .an{
+    color:white;
+  }
  .nav-link{
    color:white;
  }
-  .
+  
   .dyn-nav {
     color: rgb(255, 255, 255);
+    text-align:left;
   }
   .pic1{
     height:60vh;margin-top:30px;
@@ -159,7 +165,9 @@ html {
   .coltop1{
     height:16vh;
   }
-
+  .nav-item a{
+    color:rgb(253, 253, 253) !important;
+  }
 }
 @media only screen and (max-width:500px) {
   .top1{
@@ -183,7 +191,7 @@ html {
   }
  .scroll{
    margin-top:10px;
-   padding-left:20px;
+   margin-left:22px;
  }
  .photoborder{
  
