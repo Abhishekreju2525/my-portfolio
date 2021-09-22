@@ -1,4 +1,5 @@
 body {
+  background: #001034;
   background: url(/resources/bg1.jpg);
   background-size: auto 120vh;
   background-position: center;
@@ -49,6 +50,7 @@ html {
   margin-top: -10px;
   font-size: 140%;
   text-align: center;
+  letter-spacing:2px;
 }
 
 @keyframes floating {
