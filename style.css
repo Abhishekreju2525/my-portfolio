@@ -5,16 +5,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding:0;
+  padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  
 }
 html {
   max-width: 100vw;
-  padding:0;
-  overflow-x:hidden;
+  padding: 0;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 .section-top {
@@ -22,13 +21,13 @@ html {
   width: 100vw;
   color: white;
   padding: 0;
-  margin-left:0;
-  margin:0;
+  margin-left: 0;
+  margin: 0;
   background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
-    background-size: 40px 40px;
+  background-size: 40px 40px;
 
-    background-position: 0px 0px;
-    background-attachment: fixed;
+  background-position: 0px 0px;
+  background-attachment: fixed;
 }
 
 .row {
@@ -55,7 +54,7 @@ html {
   margin-top: -10px;
   font-size: 140%;
   text-align: center;
-  letter-spacing:2px;
+  letter-spacing: 2px;
 }
 
 @keyframes floating {
@@ -70,7 +69,6 @@ html {
   }
 }
 @media only screen and (max-width: 752px) {
-  
   body {
     width: 100vw;
     background: url(/resources/bg-mob.jpg);
@@ -78,7 +76,7 @@ html {
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow-x:hidden;
+    overflow-x: hidden;
     scroll-behavior: smooth;
   }
   .fname {
@@ -91,24 +89,31 @@ html {
   .titlename {
     margin-top: -15px;
     font-size: 120%;
-    font-weight:300;
-    text-align: center;letter-spacing:2px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
   }
   .section-top {
-    height: 123vh;
+    height: 100vh;
     width: 100vw;
     color: white;
     padding: 0;
     background: rgba(0, 12, 39, 0.6);
     background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
     background-size: 40px 40px;
-margin:0;
-background-position: 0px 0px;
+    margin: 0;
+    background-position: 0px 0px;
     background-attachment: fixed;
   }
   .section-2 {
     height: 700px;
     margin-top: 0h;
+    background: rgba(0, 12, 39, 0.6);
+    background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
+    background-size: 40px 40px;
+    margin: 0;
+    background-position: 0px 0px;
+    background-attachment: fixed;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -127,29 +132,37 @@ background-position: 0px 0px;
 }
 .section-2 {
   height: 700px;
-  margin-top: -25vh;
-  margin-bottom:0;
+  margin-top: 0vh;
+  margin-bottom: 0;
+  background: rgba(0, 12, 39, 0.6);
+  background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
+  background-size: 40px 40px;
+  margin: 0;
+  background-position: 0px 0px;
+  background-attachment: fixed;
 }
 .bg-tt {
   background: rgb(255, 0, 76);
   transition: background-color 0.5s ease;
   color: white;
 }
-.bg-ttt{
-    background: rgba(0, 12, 44,0.7);
+.bg-ttt {
+  background: rgba(0, 12, 44, 0.7);
   transition: background-color 0.5s ease;
   color: white;
 }
-.social-logo-top{
-    color:white;
-    text-align:center;
-    font-size:140%;margin-top:40px;
+.social-logo-top {
+  color: white;
+  text-align: center;
+  font-size: 140%;
+  margin-top: 40px;
 }
-.section-top .bi{
-    margin:5px;
+.section-top .bi {
+  margin: 5px;
 }
 
-.btnnav:focus,.btnnav:active {
+.btnnav:focus,
+.btnnav:active {
   outline: none !important;
   box-shadow: none !important;
   box-shadow: none;
