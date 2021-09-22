@@ -139,9 +139,7 @@ html {
 
   transition:0.2s ease;
 }
-.nav-item a{
-  color:rgb(41, 41, 41) !important;
-}
+
 .scrollbtn1{
   background: transparent;
   border:0.5px solid grey;
@@ -150,6 +148,7 @@ html {
   padding-left:20px;
   padding-bottom:3px;
 transition: 0.3s ease;
+margin-left:20px;
 margin-top:20px;
 }
 .scrollbtn1:hover{
@@ -163,6 +162,9 @@ margin-top:20px;
   }
   .an{
     color:white;
+  }
+  .nav-item a{
+    color:rgb(41, 41, 41) !important;
   }
  .nav-link{
    color:white;
@@ -205,7 +207,7 @@ margin-top:20px;
   }
  .scroll{
    margin-top:10px;
-   margin-left:22px;
+   
  }
  .photoborder{
  
