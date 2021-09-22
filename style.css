@@ -95,11 +95,8 @@ html {
   }
   .section-top {
     margin-top:0;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
     color: white;
     padding: 0;
     background: rgba(0, 12, 39, 0.6);
@@ -108,7 +105,7 @@ html {
     margin: 0;
     background-position: 0px 0px;
     background-attachment: fixed;
-  overflow:hidden;
+ 
   }
   .section-2 {
     height: 700px;
