@@ -13,7 +13,7 @@ html {
 }
 .section-top {
   height: 106vh;
-  width: 100vw;
+  min-width: 100vw;
   color: white;
   padding: 0;
   
