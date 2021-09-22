@@ -1,10 +1,5 @@
 body {
-  background: #001034;
-  background: url(/resources/bg1.jpg);
-  background-size: auto 120vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color:white !important;
   padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
@@ -21,11 +16,12 @@ html {
   width: 100vw;
   color: white;
   padding: 0;
+  
   margin-left: 0;
   margin: 0;
   background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
   background-size: 40px 40px;
-  overflow:hidden;
+
   background-position: 0px 0px;
   background-attachment: fixed;
 }
@@ -44,19 +40,32 @@ html {
   margin-top: 5px;
 }
 .fname {
-  font-size: 350%;
-  padding-top: 20vh;
+  font-size: 310%;
+  padding-top: 90px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
+  color:rgb(114, 114, 114);
 }
 .titlename {
-  margin-top: -10px;
+  margin-top: -20px;
   font-size: 140%;
-  text-align: center;
+  text-align: left;
+  font-weight:300;
+  color:rgb(80, 80, 80);
   letter-spacing: 2px;
 }
-
+.photoborder{
+  border-radius:74% 26% 50% 50% / 50% 59% 41% 50%  ;
+  height:370px;
+  width:400px;
+  background: rgb(39, 39, 39);
+  display: block;margin:140px auto;
+  overflow:hidden;
+}
+.pic1{
+  height:100vh;padding:10px 30px;margin:0;transition:0.2s ease;
+}
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
@@ -69,48 +78,34 @@ html {
   }
 }
 @media only screen and (max-width: 752px) {
-  body {
-    width: 100vw;
-    background: url(/resources/bg-mob.jpg);
-    background-size: auto 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-  }
+  
   .fname {
     font-size: 220%;
-    padding-top: 20vh;
+    padding-top: 90px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
+    color:rgb(80, 80, 80);
   }
   .titlename {
     margin-top: -15px;
     font-size: 120%;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
     letter-spacing: 2px;
   }
   .section-top {
-    margin-top:0;
-    height: 103vh;
-    width: 100vw;
-    color: white;
-    padding: 0;
-    background: rgba(0, 12, 39, 0.6);
-    background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
-    background-size: 40px 40px;
-    margin: 0;
-    background-position: 0px 0px;
-    background-attachment: fixed;
+  height:100vh;
  
+  }
+  .top-col{
+    padding:10px 30px;margin:0;vertical-align: middle;margin:0;height:100vh;
+    
   }
   .section-2 {
     height: 700px;
     margin-top: 0;
-    background: rgba(0, 12, 39, 0.6);
+    background: transparent;
     background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
     background-size: 40px 40px;
     margin: 0;
@@ -119,6 +114,27 @@ html {
 
   }
 }
+.top1{
+  height:68vh; 
+  background: url(/resources/b7.png);
+     background-position: bottom center;
+  background-attachment: inherit ;
+  background-size: auto 145vh;
+  background-repeat: no-repeat;
+  
+  transition: 0.2s ease;
+}
+.coltop1{
+  height:30vh;text-align: left;padding-left:20px;
+}
+.mypic{
+  height:400px;
+  width:auto;
+  border-radius:50%;
+  margin:140px auto;
+  transition:0.2s ease;
+}
+
 @media only screen and (max-width: 991px) {
   .bg-color {
     background: rgb(255, 0, 76);
@@ -127,7 +143,55 @@ html {
   .dyn-nav {
     color: rgb(255, 255, 255);
   }
+  .pic1{
+    height:60vh;
+    
+  }
+  .coltop1{
+    height:16vh;
+  }
+
 }
+@media only screen and (max-width:500px) {
+  .top1{
+    background-size: auto 76vh;
+    height:61vh;
+    
+  }
+  .fname {
+    font-size: 220%;
+    padding-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .titlename {
+    margin-top: -10px;
+    font-size: 120%;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+ .scroll{
+   margin-top:30px;
+ }
+ .photoborder{
+ 
+  width:95%;
+  height:93%;
+}
+.mypic{
+  height:300px;
+  width:auto;
+  margin-top:130px;
+  transition:0.2s ease;
+  
+}
+.coltop1{
+  height:30vh;
+}
+}
+
 .logo {
   height: 50vh;
   width: auto;
@@ -145,7 +209,7 @@ html {
   background-attachment: fixed;
 }
 .bg-tt {
-  background: rgb(255, 0, 76);
+  background: rgb(29, 29, 29);
   transition: background-color 0.5s ease;
   color: white;
 }
@@ -158,10 +222,11 @@ html {
   color: white;
   text-align: center;
   font-size: 140%;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .section-top .bi {
   margin: 5px;
+  color:rgb(37, 37, 37);
 }
 
 .btnnav:focus,
