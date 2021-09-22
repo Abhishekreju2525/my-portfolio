@@ -73,7 +73,7 @@ html {
     width: 100vw;
     background: url(/resources/bg-mob.jpg);
     background-size: auto 100%;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-x:hidden;
@@ -92,7 +92,7 @@ html {
     text-align: center;letter-spacing:2px;
   }
   .section-top {
-    height: 100vh;
+    height: 123vh;
     width: 100vw;
     color: white;
     padding: 0;
