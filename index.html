@@ -22,10 +22,10 @@
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-t" style="position:fixed;top:0;left:0;">
       <div class="container-fluid" style="padding:0;">
 
-        <button style="outline:none;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        <button onclick="myFunction()"  style="outline:none;" class="navbar-toggler border-0 btnnav " type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
           aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse bg-color" id="navbarTogglerDemo02" style="float:right;"> 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -108,7 +108,12 @@
 
 
 
-
+<script>
+  function myFunction() {
+   var element = document.getElementsByClassName("bi bi-list");
+   element.classList.toggle("bi bi-x-lg");
+}
+  </script>
 <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
     integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
