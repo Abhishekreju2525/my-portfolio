@@ -24,7 +24,7 @@ html {
   background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
     background-size: 40px 40px;
 
-    
+    background-position: 0px 0px;
     background-attachment: fixed;
 }
 
@@ -67,10 +67,7 @@ html {
   }
 }
 @media only screen and (max-width: 752px) {
-  .section-top {
-    display: flexbox;
-    flex-direction: column-reverse;
-  }
+  
   body {
     width: 100vw;
     background: url(/resources/bg-mob.jpg);
@@ -101,7 +98,7 @@ html {
     background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
     background-size: 40px 40px;
 margin:0;
-    background-position: -10px -10px;
+background-position: 0px 0px;
     background-attachment: fixed;
   }
   .section-2 {
