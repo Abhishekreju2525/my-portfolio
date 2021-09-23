@@ -6,6 +6,8 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+/* sections */
 .section-main{
   background: url(/resources/coverbody2.jpg) !important;
   background-size: auto 100% !important;
@@ -27,7 +29,7 @@ html {
   background-image: radial-gradient(rgb(83, 83, 83) 1px, transparent 0);
   background-size: 40px 40px;
   background-position: 0px 0px;
-  background-attachment: fixed;
+  background-attachment: scroll;
   margin-left: 0;
   margin: 0;
   /* background-image: radial-gradient(rgb(136, 136, 136) 1px, transparent 0);
@@ -40,28 +42,60 @@ html {
   color: white;
   height: auto;
   margin-top: 0;
-  background: transparent;
+  margin:0;
   background: rgba(0, 0, 0, 0.3);
-  background-image: radial-gradient(rgb(31, 31, 31) 1px, transparent 0);
+    background-image: radial-gradient(rgb(83, 83, 83) 1px, transparent 0);
+    background-size: 40px 40px;
+    
+    background-position: 0px 0px;
+    background-attachment: scroll;
+  padding: 40px 10%;
+}
+.section-responsive{
+  background: rgb(27, 27, 27);;
+  background-image: radial-gradient(rgb(26, 26, 26) 1px, transparent 0);
   background-size: 40px 40px;
   margin: 0;
   background-position: 0px 0px;
   background-attachment: fixed;
-  padding: 40px 10%;
+  color:white;
+  padding-top:50px;
+
 }
+.section-contact{
+  
+}
+
+.section-2 {
+  height: auto;
+  margin-top: 0vh;
+  margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  background-image: radial-gradient(rgb(83, 83, 83) 1px, transparent 0);
+  background-size: 40px 40px;
+  margin: 0;
+  background-position: 0px 0px;
+  background-attachment: scroll;
+}
+
+footer {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 0;
+  width: 100vw;
+  background: rgb(31, 31, 31) !important;
+}
+/* sections end */
+
+
 .row {
   padding: 0;
   margin: 0;
 }
 
-.floating {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  margin-left: 30px;
-  margin-top: 5px;
-}
+
+
 .fname {
   font-size: 310%;
   margin-top: 25%;
@@ -96,69 +130,8 @@ html {
   transition: 0.2s ease;
   z-index: 1;
 }
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 15px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
-}
-@media only screen and (max-width: 752px) {
-  .fname {
-    font-size: 220%;
-    margin-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    color: rgb(255, 255, 255);
-  }
-  .titlename {
-    margin-top: -15px;
-    font-size: 120%;
-    font-weight: 300;
-    text-align: left;
-    letter-spacing: 2px;
-  }
-  .section-top {
-    min-height: 100vh;
-  }
-  .top-col {
-    padding: 10px 30px;
-    margin: 0;
-    vertical-align: middle;
-    margin: 0;
-    height: 100vh;
-  }
-  .section-2 {
-    height: auto;
-    margin-top: 0;
-    background: transparent;
-    background: rgba(0, 0, 0, 0.3);
-    background-image: radial-gradient(rgb(31, 31, 31) 1px, transparent 0);
-    background-size: 40px 40px;
-    margin: 0;
-    background-position: 0px 0px;
-    background-attachment: fixed;
-  }
-  .service-des{
-    height:290px !important;
-    padding:30px 60px;overflow:hidden;padding-bottom:50px;display: block !important;margin:auto !important;
-    padding-right:10px;
-    padding-left:20px;
-  }
-  .service-des p{
-    display: block !important;
-    margin:auto !important;
-    margin-left:15px !important;
-    margin-top:15px;
-    max-width:85%;
-    text-align:center !important;
-  }
-}
+
+
 .service-des p{
   display: block !important;
   margin:auto !important;
@@ -211,99 +184,14 @@ html {
 .scrollbtn1:hover {
   width: 130px;
 }
-@media only screen and (max-width: 991px) {
-  .bg-color {
-    background: rgb(29, 29, 29);
-    color: rgb(255, 255, 255);
-  }
-  .an {
-    color: white;
-  }
-  .nav-item a {
-    color: rgb(41, 41, 41) !important;
-  }
-  .nav-link {
-    color: white;
-  }
 
-  .dyn-nav {
-    color: rgb(255, 255, 255);
-    text-align: left;
-  }
-  .pic1 {
-    height: 60vh;
-    margin-top: 1000px;
-  }
-  .coltop1 {
-    height: 30vh;
-  }
-  .nav-item a {
-    color: rgb(253, 253, 253) !important;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .top1 {
-    background-size: auto 76vh;
-    height: 61vh;
-  }
-  .fname {
-    font-size: 220%;
-    margin-top: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: rgb(255, 255, 255);
-  }
-  .titlename {
-    margin-top: -10px;
-    font-size: 120%;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 2px;
-  }
-  .scroll {
-    margin-top: 10px;
-  }
-  .photoborder {
-    width: 95%;
-    height: 93%;
-  }
-  .mypic {
-    height: 300px;
-    width: auto;
-    margin-top: 90px;
-    transition: 0.2s ease;
-  }
-  .mypic:hover {
-    transform: scale(1.0004);
-  }
-  .coltop1 {
-    height: 40vh;
-  }
-  .section-skills .card-img-top{
-    width:25%;
-    height:auto;
-    display:block !important;
-    margin:auto !important; 
-  }
-}
 
 .logo {
   height: 50vh;
   width: auto;
   vertical-align: middle;
 }
-.section-2 {
-  height: auto;
-  margin-top: 0vh;
-  margin-bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  background-image: radial-gradient(rgb(32, 32, 32) 1px, transparent 0);
-  background-size: 40px 40px;
-  margin: 0;
-  background-position: 0px 0px;
-  background-attachment: scroll;
-}
+
 .bg-tt {
   background: rgb(0, 0, 0);
   transition: background-color 0.5s ease;
@@ -397,29 +285,160 @@ h3:after {
   margin:auto !important; 
 }
 
-footer {
-  font-family: "Segoe UI", sans-serif;
-  font-weight: 100;
-  letter-spacing: 1px;
-  padding: 0;
-  width: 100vw;
-  background: rgb(31, 31, 31) !important;
-}
-.section-responsive{
-  background: rgb(27, 27, 27);;
-  background-image: radial-gradient(rgb(83, 83, 83) 1px, transparent 0);
-  background-size: 40px 40px;
-  margin: 0;
-  background-position: 0px 0px;
-  background-attachment: fixed;
-  color:white;
-  padding-top:50px;
-  padding:bottom:50px;
-}
+
 .responsivelogo{
   width:80%;
   height:auto;
   display: block;
   margin:auto;
   margin-top:30px;
+}
+
+
+
+
+
+
+/* media queries */
+
+
+
+
+
+
+@media only screen and (max-width: 752px) {
+  .fname {
+    font-size: 220%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: rgb(255, 255, 255);
+  }
+  .titlename {
+    margin-top: -15px;
+    font-size: 120%;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .section-top {
+    min-height: 100vh;
+  }
+  .top-col {
+    padding: 10px 30px;
+    margin: 0;
+    vertical-align: middle;
+    margin: 0;
+    height: 100vh;
+  }
+  .section-2 {
+    height: auto;
+    margin-top: 0;
+    background: transparent;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    background-image: radial-gradient(rgb(83, 83, 83) 1px, transparent 0);
+    background-size: 40px 40px;
+    
+    background-position: 0px 0px;
+    background-attachment: scroll;
+  }
+  .service-des{
+    height:290px !important;
+    padding:30px 60px;overflow:hidden;padding-bottom:50px;display: block !important;margin:auto !important;
+    padding-right:10px;
+    padding-left:20px;
+  }
+  .service-des p{
+    display: block !important;
+    margin:auto !important;
+    margin-left:15px !important;
+    margin-top:15px;
+    max-width:85%;
+    text-align:center !important;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .bg-color {
+    background: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+  }
+  .an {
+    color: white;
+  }
+  .nav-item a {
+    color: rgb(41, 41, 41) !important;
+  }
+  .nav-link {
+    color: white;
+  }
+
+  .dyn-nav {
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+  .pic1 {
+    height: 60vh;
+    margin-top: 1000px;
+  }
+  .coltop1 {
+    height: 30vh;
+  }
+  .nav-item a {
+    color: rgb(253, 253, 253) !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .top1 {
+    background-size: auto 76vh;
+    height: 61vh;
+  }
+  .fname {
+    font-size: 220%;
+    margin-top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .titlename {
+    margin-top: -10px;
+    font-size: 120%;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .scroll {
+    margin-top: 10px;
+  }
+  .photoborder {
+    width: 95%;
+    height: 93%;
+  }
+  .mypic {
+    height: 300px;
+    width: auto;
+    margin-top: 90px;
+    transition: 0.2s ease;
+  }
+  .mypic:hover {
+    transform: scale(1.0004);
+  }
+  .coltop1 {
+    height: 40vh;
+  }
+  .section-skills .card-img-top{
+    width:25%;
+    height:auto;
+    display:block !important;
+    margin:auto !important; 
+  }
 }
