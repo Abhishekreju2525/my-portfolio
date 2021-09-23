@@ -1,14 +1,17 @@
 body {
   background-color: black;
+  
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.section-main{
   background: url(/resources/coverbody2.jpg) !important;
   background-size: auto 100% !important;
   background-attachment: inherit !important;
   background-repeat: no-repeat !important;
   background-position: top center !important;
-  padding: 0;
-  max-width: 100vw;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 html {
   max-width: 100vw;
@@ -141,6 +144,25 @@ html {
     background-position: 0px 0px;
     background-attachment: fixed;
   }
+  .service-des{
+    height:240px !important;
+    padding:30px 60px;overflow:hidden;padding-bottom:50px;display: block !important;margin:auto !important;
+    padding-right:10px;
+    padding-left:20px;
+  }
+  .service-des p{
+    display: block !important;
+    margin:auto !important;
+    margin-left:15px !important;
+  }
+}
+.service-des p{
+  display: block !important;
+  margin:auto !important;
+  
+}
+.service-des{
+  padding:10px 30px;padding-right:50px;overflow:hidden;padding-bottom:50px;display: block !important;margin:auto !important;
 }
 .top1 {
   height: 68vh;
@@ -168,7 +190,7 @@ html {
   transition: 0.2s ease;
 }
 .mypic:hover {
-  transform: scale(1.02);
+  transform: scale(1.0006);
 }
 
 .scrollbtn1 {
@@ -250,7 +272,7 @@ html {
     transition: 0.2s ease;
   }
   .mypic:hover {
-    transform: scale(1.02);
+    transform: scale(1.0004);
   }
   .coltop1 {
     height: 40vh;
@@ -342,6 +364,7 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 30px;
   letter-spacing: 1px;
+  
 }
 h3:after {
   display: block;
@@ -378,4 +401,22 @@ footer {
   padding: 0;
   width: 100vw;
   background: rgb(31, 31, 31) !important;
+}
+.section-responsive{
+  background: rgb(27, 27, 27);;
+  background-image: radial-gradient(rgb(83, 83, 83) 1px, transparent 0);
+  background-size: 40px 40px;
+  margin: 0;
+  background-position: 0px 0px;
+  background-attachment: fixed;
+  color:white;
+  padding-top:50px;
+  padding:bottom:50px;
+}
+.responsivelogo{
+  width:80%;
+  height:auto;
+  display: block;
+  margin:auto;
+  margin-top:30px;
 }
