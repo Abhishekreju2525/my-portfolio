@@ -156,7 +156,7 @@ html {
     margin-left:15px !important;
     margin-top:15px;
     max-width:85%;
-    text-align:center;
+    text-align:center !important;
   }
 }
 .service-des p{
