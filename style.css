@@ -145,7 +145,7 @@ html {
     background-attachment: fixed;
   }
   .service-des{
-    min-height:270px !important;
+    height:290px !important;
     padding:30px 60px;overflow:hidden;padding-bottom:50px;display: block !important;margin:auto !important;
     padding-right:10px;
     padding-left:20px;
