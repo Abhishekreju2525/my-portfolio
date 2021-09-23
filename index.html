@@ -15,16 +15,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
   <title>Abhishek </title>
+
+  <link rel="shortcut icon" type="image/jpg" href="/resources/favicon.png"/>
+
 </head>
 
 <body>
 
- 
 
+ 
 
 
   <!--navbar-->
@@ -50,12 +53,12 @@
               </a>
             </li>
             <li class="nav-item" style="padding-left:10px;">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="#contacts">
                 <div class="dyn-nav">Contact</div>
               </a>
             </li>
             <li class="nav-item" style="padding-left:10px;">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="#projects">
                 <div class="dyn-nav">My projects</div>
               </a>
             </li>
@@ -76,7 +79,9 @@
   <!--navbar end-->
 
 
-
+  <!-- <button type="button" class="btn btn-danger btn-floating btn-lg" class="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button> -->
 
   <section class="section-main">
     <section class="section-top">
@@ -88,7 +93,8 @@
             <p class="fname" style="text-align:left;">Hi, I'm
               <font color="#00ffaa">Abhishek</font>
             <p class="titlename" style="text-align:left;">
-              <font color="#5afdc7">Frontend</font> developer
+              <!-- <font color="#5afdc7">Frontend</font> developer -->
+              <font color="#5afdc7">I build</font> Websites.
             </p>
             <p class="social-logo-top">
               <a href="https://www.facebook.com/abhishekreju"><i style="color:#ffffff;" class="bi bi-facebook"></i></a>
@@ -148,7 +154,7 @@
     </section>
 
 
-    <section class="section-skills">
+    <section class="section-skills" id="skills">
 
       <div class="container-fluid" style="margin:0;">
         <h3>SKILLS</h3>
@@ -217,7 +223,7 @@
   </section>
 
 
-  <section class="section-responsive">
+  <section class="section-responsive" id="services">
 
     <div class="container-fluid" style="display:flexbox;flex-direction: column-reverse;">
       <h3>SERVICES</h3>
@@ -366,7 +372,7 @@
 
 
   </section>
-<section class="section-projects">
+<section class="section-projects" id="projects">
 <h3 style="margin-top:10px;color:rgb(46, 46, 46); ">Recent projects</h3>
   <div style="margin-top:10px;" class="row row-cols-1 row-cols-md-3 g-4">
     <a href="https://nhssperdala.netlify.app/">
@@ -431,7 +437,7 @@
 </section>
   <!-- contact -->
 
-  <section class="section-contact">
+  <section class="section-contact" id="contacts">
 
     <div class="container-fluid" style="display:flexbox;flex-direction: column-reverse;">
       <div class="row" style="overflow:hidden;">
@@ -448,14 +454,14 @@
             <h3>get in touch</h3>
             <!-- contact form -->
 
-            <form method="POST" action="">
+            <form method="POST" action="" id="submit-form">
 
               <!-- <label for="inputName" class="col-sm-2 col-form-label" >Name</label><br> -->
               <div class="input-field">
                 <div class="col">
 
                   <i class="bi bi-person-fill contacticon"></i>
-                  <input style="float:right !important;" type="text" class="form-control inp" id="inputName"
+                  <input style="float:right !important;" type="text" class="form-control inp" id="name" name="name"
                     placeholder="Name" onfocus="this.value=''; this.style.color='#ffffff'">
 
                 </div>
@@ -466,7 +472,7 @@
               <div class="input-field">
                 <div class="col">
                   <i class="bi bi-envelope-fill contacticon"></i>
-                  <input type="email" class="form-control inp" placeholder="Email" id="inputEmail3"
+                  <input type="email" class="form-control inp" placeholder="Email" id="email" name="email"
                     onfocus="this.value=''; this.style.color='#ffffff'">
                 </div>
               </div>
@@ -477,14 +483,14 @@
               <div class="input-field">
                 <div class="col">
                   <i class="bi bi-chat-square-dots-fill contacticon"></i>
-                  <textarea class="form-control inpt" placeholder="Message"
+                  <textarea class="form-control inpt" placeholder="Message" id="message" name="message"
                     onfocus="this.value=''; this.style.color='#ffffff'"></textarea>
 
                 </div><br>
               </div>
 
 
-              <button type="submit" class="button4">Sign in</button>
+              <button type="submit" class="button4">Send</button>
             </form>
 
           </div>
@@ -510,6 +516,7 @@
               <p><a style="text-decoration: none;" href="tel:+917994202525"><i class="bi bi-telephone-fill"></i> +91
                   7994202525</a></p>
               <p><i class="fas fa-map-marker-alt"></i> &nbsp;Kasaragod, Kerala, India</p>
+              <button class="button8" onclick="location.href='https://www.qwiklabs.com/public_profiles/81ce173f-2172-4349-92b4-b460102f0acc'">Qwiklabs profile <i class="bi bi-cloud-fill"></i></button>
             </div>
 
 
@@ -534,16 +541,15 @@
       <div class="col">
         <section class="mb-4" style="text-align:center;">
 
-          <a class="btn btn-floating m-1" href="#!" role="button"><i style="color:#4267B2;"
+          <a class="btn btn-floating m-1" href="https://facebook.com/abhishekreju" role="button"><i style="color:#4267B2;"
               class="bi bi-facebook footer-socialicons"></i></a>
-          <a class="btn btn-floating m-1" href="#!" role="button"><i style="color:#1DA1F2;"
+          <a class="btn btn-floating m-1" href="https://twitter.com/abhishekreju_" role="button"><i style="color:#1DA1F2;"
               class="bi bi-twitter footer-socialicons"></i></a>
-          <a class="btn btn-floating m-1" href="#!" role="button"><i style="color:white;"
-              class="bi bi-google footer-socialicons"></i></a>
-          <a class="btn btn-floating m-1" href="#!" role="button"><i style="color:#E1306C;"
+          
+          <a class="btn btn-floating m-1" href="https://instagram.com/abhishek.sr_" role="button"><i style="color:#E1306C;"
               class="bi bi-instagram footer-socialicons"></i></a>
-          <a class="btn btn-floating m-1" href="#!" role="button"><i style="color:	#FF0000;"
-              class="bi bi-youtube footer-socialicons"></i></a>
+          <a class="btn btn-floating m-1" href="https://github.com/Abhishekreju2525" role="button"><i style="color:	#ffffff;"
+              class="bi bi-github footer-socialicons"></i></a>
 
 
         </section>
@@ -559,9 +565,7 @@
       <div class="col">
 
       </div>
-      <!-- <div style="width:100%;text-align:center;margin-bottom:20px;">
-      <small>&copy;Copyright 2021. NHSS Perdala</small>
-    </div> -->
+      
     </div>
 
 
@@ -571,8 +575,8 @@
       style=" height:55px;width:100vw;background-color: rgba(0, 0, 0, 0.2);overflow:hidden;padding:30px;">
 
 
-      <div style="float:left;">
-
+      <div style="width:100%;text-align:center;margin-bottom:20px;">
+        <small>&copy;Copyright reserved.2021</small>
       </div>
       <!-- <div style="text-align:center;font-size:0.9rem;">
       Made by <a style="text-decoration: none;color:#ff004c;" href="https://github.com/Abhishekreju2525">Abhishekreju2525</a>
@@ -592,19 +596,25 @@
 
 
 
-
-
-
-
-
   <script>
-    var loader = document.getElementById("preloader");
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbwfmQPzCBqkwCZEUXtIAW48cHDOkqpbi9W_AsJzMAPOM7Xc3cLCOzJMHw1BFgBitQqNHg/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
 
-    window.addEventListener("load", function () {
-      loader.style.display = "none";
+            }
+        })
     })
-
-  </script>
+</script>
 
 
 
