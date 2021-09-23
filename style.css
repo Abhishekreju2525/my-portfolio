@@ -63,12 +63,26 @@ html {
 }
 .section-contact {
   background: rgb(240, 240, 240);
-  background-image: radial-gradient(rgb(26, 26, 26) 1px, transparent 0);
+  background-image: radial-gradient(rgb(173, 173, 173) 1px, transparent 0);
   background-size: 40px 40px;
   margin: 0;
+  height:auto;
   background-position: 0px 0px;
   background-attachment: fixed;
   color: white;
+}
+.contactinfo{
+  width:80%;padding-top:20%;
+  font-size:110%;
+  color:#494949;
+  font-weight:500;
+  letter-spacing: 1.3px;
+  font-family: "Raleway", sans-serif;
+  display:block;margin-left:auto;margin-right:auto;
+  line-height:38px;
+}
+.contactinfo a{
+  color:#494949 !important;
 }
 /* .form-container{
  
@@ -78,7 +92,7 @@ html {
  
 } */
 .form-container {
-  padding:0;
+  padding:0 !important;
   margin: 0;
   overflow: hidden;
   background: url(/resources/contactbg3.jpg) !important;
@@ -347,9 +361,9 @@ h3:after {
 
 .input-field{
   width:95%;
-  border:0.2px solid white !important;
+  border-bottom:0.2px solid white !important;
   text-align: left;padding-left:10px;
-  border-radius: 3px;
+  border-radius: 0px;
   overflow: hidden;
   
 }
@@ -381,16 +395,17 @@ textarea:focus, input:focus {
   border: none;
   border-radius: 10rem;
   height: 40px;
-  width: 8.5rem;
+  width: 7rem;
   display: block;
-  color: white;
-  background: #00ffaa;
+  color: rgb(255, 255, 255);
+  background: #31b88b;
   transition: all 0.5s ease-out;
-  margin-top:20px;
+  margin-top:50px;
 
 }
 .button4:hover{
-  background: #00ffaa;
+  width:7.6rem;
+  background: #5a5a5a;
 }
 
 
