@@ -145,7 +145,7 @@ html {
     background-attachment: fixed;
   }
   .service-des{
-    height:240px !important;
+    min-height:270px !important;
     padding:30px 60px;overflow:hidden;padding-bottom:50px;display: block !important;margin:auto !important;
     padding-right:10px;
     padding-left:20px;
@@ -154,12 +154,14 @@ html {
     display: block !important;
     margin:auto !important;
     margin-left:15px !important;
+    margin-top:15px;
+    max-width:85%;
   }
 }
 .service-des p{
   display: block !important;
   margin:auto !important;
-  
+  max-width:70%;
 }
 .service-des{
   padding:10px 30px;padding-right:50px;overflow:hidden;padding-bottom:50px;display: block !important;margin:auto !important;
