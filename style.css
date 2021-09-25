@@ -9,7 +9,7 @@ body {
 
 /* sections */
 .section-main {
-  background: url(/my-portfolio/resources/coverbody2.jpg) !important;
+  background: url(/resources/coverbody2.jpg) !important;
   background-size: auto 100% !important;
   background-attachment: inherit !important;
   background-repeat: no-repeat !important;
