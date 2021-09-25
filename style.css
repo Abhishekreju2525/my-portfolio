@@ -9,14 +9,14 @@ body {
 
 /* sections */
 .section-main {
-  background: url(/resources/coverbody2.jpg) !important;
+  background: url(resources/coverbody2.jpg) !important;
   background-size: auto 100% !important;
   background-attachment: inherit !important;
   background-repeat: no-repeat !important;
   background-position: top center !important;
 }
 .section-main-2{
-  background: url(/resources/coverbody2.jpg) !important;
+  background: url(resources/coverbody2.jpg) !important;
   background-size: cover !important;
   background-attachment: inherit !important;
   background-repeat: no-repeat !important;
