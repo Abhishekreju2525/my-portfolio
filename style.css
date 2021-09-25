@@ -15,6 +15,14 @@ body {
   background-repeat: no-repeat !important;
   background-position: top center !important;
 }
+.section-main-2{
+  background: url(/resources/coverbody2.jpg) !important;
+  background-size: cover !important;
+  background-attachment: inherit !important;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+  min-height:100vh;
+}
 html {
   max-width: 100vw;
   padding: 0;
@@ -211,10 +219,19 @@ footer {
   padding-left: 20px;
   z-index: 2;
 }
+.mypic2 {
+  height: 400px;
+  width: auto;
+
+  display: block;
+  margin: 140px auto;
+
+  transition: 0.2s ease;
+}
 .mypic {
   height: 400px;
   width: auto;
-  
+
   display: block;
   margin: 140px auto;
 
@@ -521,6 +538,7 @@ margin-top:20px;
   .fname {
     font-size: 220%;
     margin-top: 25%;
+    padding-left:10px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -532,6 +550,7 @@ margin-top:20px;
     font-weight: 300;
     text-align: left;
     letter-spacing: 2px;
+    padding-left:12px;
   }
   .section-top {
     min-height: 100vh;
@@ -604,6 +623,12 @@ margin-top:20px;
   .nav-item a {
     color: rgb(253, 253, 253) !important;
   }
+  .scrollbtn1{
+    margin-left: 12px !important;
+  }
+  .social-logo-top {
+    margin-left:8px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -615,6 +640,7 @@ margin-top:20px;
     font-size: 220%;
     margin-top: 35%;
     margin-left: auto;
+    padding-left:10px;
     margin-right: auto;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -623,6 +649,7 @@ margin-top:20px;
     margin-top: -10px;
     font-size: 120%;
     font-weight: 300;
+    padding-left:12px;
     text-align: center;
     letter-spacing: 2px;
   }
@@ -639,11 +666,18 @@ margin-top:20px;
     margin-top: 90px;
     transition: 0.2s ease;
   }
+  .mypic2 {
+    height: 300px;
+    width: auto;
+    margin-top: 90px;
+    transition: 0.2s ease;
+  }
   .mypic:hover {
     transform: scale(1.0004);
   }
   .coltop1 {
     height: 40vh;
+    padding-left: 0px;
   }
   .section-skills .card-img-top {
     width: 25%;
@@ -655,5 +689,11 @@ margin-top:20px;
  
   .contactin{
     padding:0 !important;
+  }
+  .social-logo-top {
+    margin-left:8px;
+  }
+  .scrollbtn1{
+    margin-left: 10px;
   }
 }
