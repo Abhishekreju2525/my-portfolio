@@ -9,14 +9,14 @@ body {
 
 /* sections */
 .section-main {
-  background: url(/resources/coverbody2.jpg) !important;
+  background: url(resources/coverbody2.jpg) !important;
   background-size: auto 100% !important;
   background-attachment: inherit !important;
   background-repeat: no-repeat !important;
   background-position: top center !important;
 }
 .section-main-2{
-  background: url(/resources/coverbody2.jpg) !important;
+  background: url(resources/coverbody2.jpg) !important;
   background-size: cover !important;
   background-attachment: inherit !important;
   background-repeat: no-repeat !important;
@@ -61,7 +61,7 @@ html {
 }
 .section-projects{
   padding:5% 10%;
-  background: url(/resources/project-bg1.jpg);
+  background: url(resources/project-bg1.jpg);
   background-position: top;
   background-size: cover;
   background-attachment: inherit;
@@ -117,7 +117,7 @@ html {
   padding:0 !important;
   margin: 0;
   overflow: hidden;
-  background: url(/resources/contactbg3.jpg) !important;
+  background: url(resources/contactbg3.jpg) !important;
 
   background-size: 100% auto !important;
 }
@@ -205,7 +205,7 @@ footer {
 }
 .top1 {
   height: 68vh;
-  background: url(/resources/b7.png);
+  background: url(resources/b7.png);
   background-position: bottom center;
   background-attachment: inherit;
   background-size: auto 145vh;
@@ -516,7 +516,7 @@ margin-top:20px;
 /* Preloader */
 
 #preloader {
-  background: #000 url(/resources/img/loader.gif) no-repeat center center;
+  background: #000 url(resources/img/loader.gif) no-repeat center center;
   background-size: 20%;
   height: 100vh;
   width: 100%;
